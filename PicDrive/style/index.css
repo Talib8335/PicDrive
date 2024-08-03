@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+*:focus{
+	box-shadow:none !important;
+	outline:none;
+}
+
+
+
+#fullname,#password,#login-email,#login-password{
+	width:100% !important;
+	padding: 12px 20px;
+	border:none;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	background: white;
+}
+
+.email-box,.password-box,#code,#login-code{
+	width:100% !important;
+	height:50px;
+	border:none;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	position: relative;
+}
+
+#code,.activate-btn,.login-activate-btn,#login-code{
+	padding: 12px 20px;
+}
+
+.activate-btn{
+	border-radius: 50px
+}
+
+
+
+#email,#password{
+	width:100% !important;
+	padding: 12px 20px;
+	border:none;
+	border-radius: 50px;
+	background: white;
+	position: absolute;
+}
+
+.email-loader,.show-icon,.login-show-icon{
+	position: absolute;
+	top:30%;
+	right: 15px;
+	color:#ccc;
+	z-index: 1;
+	cursor:pointer;																																					);
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Francois One', sans-serif;
+}
+
+
+.generate-btn{
+	border-radius:50px;
+	padding: 8px 20px;
+	background-color:white;
+	font-weight:bold;
+}
+
+.submit-btn,.login-submit-btn{
+	background-color: black;
+	padding: 10px 20px;
+	color:white;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width:33.33%;
+	height:35px;
+	background: white;
+
+}
+
+.login-submit-btn{
+	border-radius:50px;
+	margin-top:10px;
+}
