@@ -1,6 +1,6 @@
 # PicDrive
 
-**PICDRIVE** is designed to save and manage important images. Similar to Google Drive, PICDRIVE allows users to upload their photos but offers more flexibility by enabling direct edits and changes to files after upload, making it a more versatile tool for image management.
+**PicDrive** is designed to save and manage important images. Similar to Google Drive, PICDRIVE allows users to upload their photos but offers more flexibility by enabling direct edits and changes to files after upload, making it a more versatile tool for image management.
 
 ## Features
 
@@ -36,13 +36,13 @@
 1. **Clone the Project**
 
     ```bash
-    git clone https://github.com/Talib8335/Ecommerce-project.git
+    git clone https://github.com/Talib8335/PicDrive.git
     ```
 
 2. **Go to the Project Directory**
 
     ```bash
-    cd PICDIVE
+    cd PicDrive
     ```
 
 3. **Install WAMP/XAMPP Server**
@@ -55,24 +55,27 @@
     cd C:\wamp\www\
     ```
 
-5. **Open `localhost/phpmyadmin` in Your Browser**
+5. **Start Server**
+   - Start the WAMP server and wait till button turn Green
+
+6. **Open `localhost/phpmyadmin` in Your Browser**
 
     ```bash
     localhost/phpmyadmin
     ```
 
-6. **Create a New Database**
+7. **Create a New Database**
 
     - Click on "New" in the side navbar
     - Enter `pic_drive` as the database name and click "Create"
 
-7. **Import the Database**
+8. **Import the Database**
 
     - After creating the database, click on "Import"
     - Browse for the file `PicDrive/sql/users.sql` in the project directory
     - Import the file
 
-8. **Open Your Browser and Visit the Application**
+9. **Open Your Browser and Visit the Application**
 
     ```bash
     http://localhost/PicDrive
