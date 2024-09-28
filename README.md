@@ -1,5 +1,7 @@
 # PicDrive
 
+![mockuper (4)](https://github.com/user-attachments/assets/abea8f2c-55ed-4650-ba79-25e146811659)
+
 **PicDrive** is designed to save and manage important images. Similar to Google Drive, PICDRIVE allows users to upload their photos but offers more flexibility by enabling direct edits and changes to files after upload, making it a more versatile tool for image management.
 
 ## Features
